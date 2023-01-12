@@ -17,7 +17,7 @@ function Body() {
     <div className="d-flex flex-column justify-content-center align-items-center body">
       <h2 className="heading">Please upload your image here.</h2>
       <input
-        className="temp"
+        className="file-upload"
         type="file"
         id="imageUpload"
         onChange={imageHandler}
