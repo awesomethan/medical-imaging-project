@@ -16,7 +16,12 @@ function Body() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center body">
       <h2 className="heading">Please upload your image here.</h2>
-      <input type="file" id="imageUpload" onChange={imageHandler} />
+      <input
+        className="temp"
+        type="file"
+        id="imageUpload"
+        onChange={imageHandler}
+      />
       <img src={image} alt="" className="image" />
     </div>
   );
