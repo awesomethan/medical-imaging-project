@@ -15,10 +15,7 @@ nav {
   border-bottom: solid black;
 }
 
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.nav-objects {
   padding: 0 10vw;
 }
 
@@ -43,4 +40,9 @@ nav {
   width: 40vw;
   height: 50vh;
   padding: 5vh;
+}
+
+.file-upload {
+  left: 3vw;
+  position: relative;
 }
